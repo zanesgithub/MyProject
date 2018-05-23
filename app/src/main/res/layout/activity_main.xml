@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zanespc.myproject.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/selectText"
+        android:id="@+id/layout1">
+        <CheckBox
+            android:id="@+id/checkBoxNaruto"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/naruto" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCaptainAmerica"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/captain_america" />
+
+        <CheckBox
+            android:id="@+id/checkBoxGoku"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/goku" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1">
+
+
+        <CheckBox
+            android:id="@+id/checkBoxThanos"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/thanos" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMewtwo"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/mewtwo" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSasuke"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/sasuke" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/layout3"
+        android:layout_above="@+id/selectButton"
+        android:layout_below="@id/layout2">
+
+
+        <CheckBox
+            android:id="@+id/checkBoxBobby"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/boby_shmurda" />
+
+        <CheckBox
+            android:id="@+id/checkBoxZed"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/zed" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBears"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/four_bears" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Lock In" />
+
+    <EditText
+        android:id="@+id/selectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Select 3 Fighters" />
+
+
+</RelativeLayout>
