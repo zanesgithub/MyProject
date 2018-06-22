@@ -39,8 +39,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:background="@drawable/sasuke" />
+            android:layout_alignParentRight="true" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -48,8 +47,7 @@
             android:layout_height="120dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@id/textViewRight1"
-            android:background="@drawable/four_bears" />
+            android:layout_below="@id/textViewRight1" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -57,8 +55,7 @@
             android:layout_height="120dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@id/textViewRight2"
-            android:background="@drawable/zed" />
+            android:layout_below="@id/textViewRight2" />
 
         <ImageView
             android:layout_width="70dp"
